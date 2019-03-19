@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DLTittleBar">
+        <attr name="tittleTxt" format="string"/> <!-- 标题文字 -->
+        <attr name="tittleColor" format="color"/> <!-- 标题文字颜色 -->
+        <attr name="tittleSize" format="dimension"/> <!-- 标题文字尺寸 -->
+        <attr name="tittleBackground" format="reference|color"/> <!-- 标题的背景 -->
+
+        <attr name="barBackground" format="reference|color"/> <!-- 整个bar的背景 -->
+
+        <attr name="leftBtnVisible" format="boolean"/> <!-- 左侧控件是否可见 -->
+        <attr name="leftBtnTxt" format="string"/> <!-- 左侧控件文字 -->
+        <attr name="leftBtnColor" format="color"/> <!-- 左侧控件文字颜色 -->
+        <attr name="leftBtnSize" format="dimension"/> <!-- 左侧控件文字尺寸 -->
+        <attr name="leftBtnImage" format="reference|color"/> <!-- 左侧控件的图片 -->
+
+        <attr name="right1BtnVisible" format="boolean"/> <!-- 右侧控件1是否可见 -->
+        <attr name="right1BtnTxt" format="string"/> <!-- 右侧控件1文字 -->
+        <attr name="right1BtnColor" format="color"/> <!-- 右侧控件1文字颜色 -->
+        <attr name="right1BtnSize" format="dimension"/> <!-- 右侧控件1文字尺寸 -->
+        <attr name="right1BtnImage" format="reference|color"/> <!-- 右侧控件1的图片 -->
+
+        <attr name="right2BtnVisible" format="boolean"/> <!-- 右侧控件2是否可见 -->
+        <attr name="right2BtnTxt" format="string"/> <!-- 右侧控件2文字 -->
+        <attr name="right2BtnColor" format="color"/> <!-- 右侧控件2文字颜色 -->
+        <attr name="right2BtnSize" format="dimension"/> <!-- 右侧控件2文字尺寸 -->
+        <attr name="right2BtnImage" format="reference|color"/> <!-- 右侧控件2的图片 -->
+    </declare-styleable>
+</resources>

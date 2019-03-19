@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.dlong.rep.dltittlebar.DLTittleBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        app:barBackground="@android:color/darker_gray"
+        app:leftBtnImage="@drawable/back"
+        app:leftBtnVisible="true"
+        app:right2BtnImage="@drawable/add"
+        app:right2BtnVisible="true"
+        app:tittleColor="#666666"
+        app:tittleTxt="首页">
+
+    </com.dlong.rep.dltittlebar.DLTittleBar>
+
+    <com.dlong.rep.dltittlebar.DLTittleBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        app:barBackground="@color/colorPrimary"
+        app:leftBtnImage="@drawable/back"
+        app:leftBtnVisible="true"
+        app:right1BtnTxt="消息"
+        app:right1BtnVisible="true"
+        app:right2BtnImage="@drawable/add"
+        app:right2BtnVisible="true"
+        app:tittleColor="#666666"
+        app:tittleTxt="首页">
+
+    </com.dlong.rep.dltittlebar.DLTittleBar>
+
+    <com.dlong.rep.dltittlebar.DLTittleBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        app:barBackground="@android:color/holo_blue_light"
+        app:leftBtnImage="@drawable/back"
+        app:leftBtnVisible="true"
+        app:right2BtnColor="@color/colorAccent"
+        app:right2BtnTxt="保存"
+        app:right2BtnVisible="true"
+        app:tittleColor="#666666"
+        app:tittleTxt="首页">
+
+    </com.dlong.rep.dltittlebar.DLTittleBar>
+
+    <com.dlong.rep.dltittlebar.DLTittleBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        app:barBackground="@android:color/holo_orange_light"
+        app:leftBtnColor="@android:color/holo_red_light"
+        app:leftBtnTxt="返回"
+        app:leftBtnVisible="true"
+        app:right2BtnColor="@color/colorAccent"
+        app:right2BtnTxt="保存"
+        app:right2BtnVisible="true"
+        app:tittleColor="#666666"
+        app:tittleTxt="首页">
+
+    </com.dlong.rep.dltittlebar.DLTittleBar>
+
+    <com.dlong.rep.dltittlebar.DLTittleBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        app:barBackground="@color/colorPrimaryDark"
+        app:leftBtnColor="@android:color/holo_red_light"
+        app:leftBtnTxt="返回"
+        app:leftBtnVisible="true"
+        app:right2BtnColor="@color/colorAccent"
+        app:right2BtnTxt="保存"
+        app:right2BtnVisible="true">
+
+    </com.dlong.rep.dltittlebar.DLTittleBar>
+
+    <com.dlong.rep.dltittlebar.DLTittleBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        app:barBackground="@android:color/holo_green_dark"
+        app:leftBtnColor="@android:color/holo_red_light"
+        app:leftBtnVisible="false"
+        app:right2BtnColor="@color/colorAccent"
+        app:right2BtnTxt="保存"
+        app:right2BtnVisible="true"
+        app:tittleTxt="首页">
+
+    </com.dlong.rep.dltittlebar.DLTittleBar>
+
+    <com.dlong.rep.dltittlebar.DLTittleBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        app:barBackground="@android:color/holo_purple"
+        app:leftBtnColor="@android:color/holo_red_light"
+        app:leftBtnVisible="false"
+        app:right1BtnImage="@drawable/add"
+        app:right1BtnVisible="true"
+        app:right2BtnColor="@color/colorAccent"
+        app:right2BtnTxt="保存"
+        app:right2BtnVisible="true"
+        app:tittleTxt="首页">
+
+    </com.dlong.rep.dltittlebar.DLTittleBar>
+
+    <com.dlong.rep.dltittlebar.DLTittleBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        app:barBackground="@android:color/black"
+        app:leftBtnColor="@android:color/holo_red_light"
+        app:leftBtnVisible="false"
+        app:right1BtnImage="@drawable/add"
+        app:right1BtnVisible="true"
+        app:right2BtnColor="@color/colorAccent"
+        app:right2BtnTxt="保存"
+        app:right2BtnVisible="false"
+        app:tittleTxt="首页">
+
+    </com.dlong.rep.dltittlebar.DLTittleBar>
+
+
+</LinearLayout>
