@@ -1,7 +1,7 @@
 # DL10TittleBar
 android 一款自定义Tittle Bar
 
-说明链接：
+说明链接：https://blog.csdn.net/sinat_38184748/article/details/88662476
 # 效果图
 ![](img/demo.png)
 # 使用方法
