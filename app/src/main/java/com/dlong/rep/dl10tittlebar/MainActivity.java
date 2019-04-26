@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tittleBar = findViewById(R.id.tittle);
+        tittleBar.setTittleMsg("哈哈哈哈");
         tittleBar.setOnTittleBarBtnsClick(new DLTittleBar.TittleBarBtnsOnClickListener() {
             @Override
             public void OnClick(View view) {

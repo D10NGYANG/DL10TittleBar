@@ -228,101 +228,101 @@ public class DLTittleBar extends RelativeLayout {
      */
     public void setTittleMsg(String tittleMsg) {
         this.mTittleMsg = tittleMsg;
-        this.invalidate();
+        mTittleTxt.setText(mTittleMsg);
     }
 
     public void setTittleColor(int tittleColor) {
         this.mTittleColor = tittleColor;
-        this.invalidate();
+        mTittleTxt.setTextColor(mTittleColor);
     }
 
     public void setTittleSize(float tittleSize) {
         this.mTittleSize = tittleSize;
-        this.invalidate();
+        mTittleTxt.setTextSize(mTittleSize);
     }
 
     public void setTittleBackground(Drawable tittleBackground) {
         this.mTittleBackground = tittleBackground;
-        this.invalidate();
+        mTittleTxt.setBackground(mTittleBackground);
     }
 
     public void setBarBackground(Drawable barBackground) {
         this.mBarBackground = barBackground;
-        this.invalidate();
+        mTittleBar.setBackground(mBarBackground);
     }
 
     public void setLeftBtnVisible(boolean leftBtnVisible) {
         this.mLeftBtnVisible = leftBtnVisible;
-        this.invalidate();
+        mLeftBtnRL.setVisibility(mLeftBtnVisible? VISIBLE:INVISIBLE);
     }
 
     public void setLeftBtnMsg(String leftBtnMsg) {
         this.mLeftBtnMsg = leftBtnMsg;
-        this.invalidate();
+        mLeftBtnTxt.setText(mLeftBtnMsg);
     }
 
     public void setLeftBtnColor(int leftBtnColor) {
         this.mLeftBtnColor = leftBtnColor;
-        this.invalidate();
+        mLeftBtnTxt.setTextColor(mLeftBtnColor);
     }
 
     public void setLeftBtnSize(float leftBtnSize) {
         this.mLeftBtnSize = leftBtnSize;
-        this.invalidate();
+        mLeftBtnTxt.setTextSize(mLeftBtnSize);
     }
 
     public void setLeftBtnPic(Drawable leftBtnPic) {
         this.mLeftBtnPic = leftBtnPic;
-        this.invalidate();
+        mLeftBtnImg.setImageDrawable(mLeftBtnPic);
     }
 
     public void setRight1BtnVisible(boolean right1BtnVisible) {
         this.mRight1BtnVisible = right1BtnVisible;
-        this.invalidate();
+        mRight1BtnRL.setVisibility(mRight1BtnVisible? VISIBLE:INVISIBLE);
     }
 
     public void setRight1BtnMsg(String right1BtnMsg) {
         this.mRight1BtnMsg = right1BtnMsg;
-        this.invalidate();
+        mRight1BtnTxt.setText(mRight1BtnMsg);
     }
 
     public void setRight1BtnColor(int right1BtnColor) {
         this.mRight1BtnColor = right1BtnColor;
-        this.invalidate();
+        mRight1BtnTxt.setTextColor(mRight1BtnColor);
     }
 
     public void setRight1BtnSize(float right1BtnSize) {
         this.mRight1BtnSize = right1BtnSize;
-        this.invalidate();
+        mRight1BtnTxt.setTextSize(mRight1BtnSize);
     }
 
     public void setRight1BtnPic(Drawable right1BtnPic) {
         this.mRight1BtnPic = right1BtnPic;
-        this.invalidate();
+        mRight1BtnImg.setImageDrawable(mRight1BtnPic);
     }
 
     public void setRight2BtnVisible(boolean right2BtnVisible) {
         this.mRight2BtnVisible = right2BtnVisible;
-        this.invalidate();
+        mRight2BtnRL.setVisibility(mRight2BtnVisible? VISIBLE:INVISIBLE);
     }
 
     public void setRight2BtnMsg(String right2BtnMsg) {
         this.mRight2BtnMsg = right2BtnMsg;
-        this.invalidate();
+        mRight2BtnTxt.setText(mRight2BtnMsg);
     }
 
     public void setRight2BtnColor(int right2BtnColor) {
         this.mRight2BtnColor = right2BtnColor;
-        this.invalidate();
+        mRight2BtnTxt.setTextColor(mRight2BtnColor);
     }
 
     public void setRight2BtnSize(float right2BtnSize) {
         this.mRight2BtnSize = right2BtnSize;
-        this.invalidate();
+        mRight2BtnTxt.setTextSize(mRight2BtnSize);
     }
 
     public void setRight2BtnPic(Drawable right2BtnPic) {
         this.mRight2BtnPic = right2BtnPic;
-        this.invalidate();
+        mRight2BtnImg.setImageDrawable(mRight2BtnPic);
     }
 }
