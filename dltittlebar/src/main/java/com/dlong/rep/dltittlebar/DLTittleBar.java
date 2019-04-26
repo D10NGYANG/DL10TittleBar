@@ -55,16 +55,27 @@ public class DLTittleBar extends RelativeLayout {
 
     /** 创建一个监听点击的接口 */
     public interface TittleBarBtnsOnClickListener{
-        void tittleOnClick();//右按钮1被点击的事件
-        void leftBtnOnClick();//左按钮被点击的事件
-        void right1BtnOnClick();//右按钮1被点击的事件
-        void right2BtnOnClick();//右按钮1被点击的事件
+        void OnClick(View view);
     }
 
     /** 向外提供一个设置监听的方法 */
     public void setOnTittleBarBtnsClick(TittleBarBtnsOnClickListener listener){
         this.mListener = listener;
+        mTittleTxt.setOnClickListener(onClickListener);
+        mLeftBtnImg.setOnClickListener(onClickListener);
+        mLeftBtnTxt.setOnClickListener(onClickListener);
+        mRight1BtnImg.setOnClickListener(onClickListener);
+        mRight1BtnTxt.setOnClickListener(onClickListener);
+        mRight2BtnImg.setOnClickListener(onClickListener);
+        mRight2BtnTxt.setOnClickListener(onClickListener);
     }
+
+    private OnClickListener onClickListener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            mListener.OnClick(v);
+        }
+    };
     
     public DLTittleBar(Context context) {
         super(context);
@@ -162,31 +173,6 @@ public class DLTittleBar extends RelativeLayout {
         }else {
             mRight2BtnRL.setVisibility(INVISIBLE);
         }
-        // 定义点击事件
-        mTittleBar.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mListener.tittleOnClick();
-            }
-        });
-        mLeftBtnRL.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mListener.leftBtnOnClick();
-            }
-        });
-        mRight1BtnRL.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mListener.right1BtnOnClick();
-            }
-        });
-        mRight2BtnRL.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mListener.right2BtnOnClick();
-            }
-        });
     }
 
     /**

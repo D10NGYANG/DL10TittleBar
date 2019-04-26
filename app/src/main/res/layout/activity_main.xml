@@ -8,12 +8,15 @@
     tools:context=".MainActivity">
 
     <com.dlong.rep.dltittlebar.DLTittleBar
+        android:id="@+id/tittle"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="5dp"
         app:barBackground="@android:color/darker_gray"
         app:leftBtnImage="@drawable/back"
         app:leftBtnVisible="true"
+        app:right1BtnTxt="消息"
+        app:right1BtnVisible="true"
         app:right2BtnImage="@drawable/add"
         app:right2BtnVisible="true"
         app:tittleColor="#666666"
