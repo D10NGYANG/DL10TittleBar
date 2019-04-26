@@ -42,3 +42,38 @@ Step 2. Add the dependency
 
     </com.dlong.rep.dltittlebar.DLTittleBar>
 ```
+点击事件处理
+
+```java
+public class MainActivity extends AppCompatActivity {
+    private Context mContext = this;
+    private DLTittleBar tittleBar;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        tittleBar = findViewById(R.id.tittle);
+        tittleBar.setOnTittleBarBtnsClick(new DLTittleBar.TittleBarBtnsOnClickListener() {
+            @Override
+            public void OnClick(View view) {
+                switch (view.getId()){
+                    case R.id.titleTxt:
+                        Toast.makeText(mContext, "tittle", Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.leftBtnImg:
+                        Toast.makeText(mContext, "leftBtn", Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.right1BtnTxt:
+                        Toast.makeText(mContext, "right1Btn", Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.right2BtnImg:
+                        Toast.makeText(mContext, "right2Btn", Toast.LENGTH_SHORT).show();
+                        break;
+                }
+            }
+        });
+    }
+}
+```
